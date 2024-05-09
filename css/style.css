@@ -1,0 +1,72 @@
+*, *:before, *:after {
+     box-sizing: border-box;
+}
+ html, body {
+     height: 100%;
+     background: #aaa;
+     margin: 0;
+     padding: 0;
+     font-family: "Inter", sans-serif;
+     font-style: normal;
+}
+ small, dl{
+     font-size: 11px;
+     line-height: 14px;
+     padding: 0 4px 0 3px;
+}
+
+ dt.number, 
+ dt.name, 
+ dt.street,
+ dt.postcode{
+     display: none;
+}
+ dd.number{
+     display: inline-block;
+}
+ dd.name{
+     display: block;
+}
+ dd.street{
+     display: inline-block;
+}
+ dd.number{
+}
+
+img.shop{
+     max-width: 100%;
+}
+
+.list li{
+     list-style: none;
+}
+
+.list li img{
+     border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+ .list{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+     grid-template-columns: 1fr 1fr 1fr 1fr ;
+     grid-gap: 10px;
+     padding: 20px;
+}
+
+ .controls{
+         font-size: 11px;
+     line-height: 14px;
+    padding: 20px;
+/*    columns: 3;*/
+    display: flex;
+}
+
+
+ .controls ul{
+    flex-grow: 1;
+
+ }
+
+
+

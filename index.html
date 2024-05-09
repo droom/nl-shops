@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="css/reset.css" rel="stylesheet"/>
+      <link href="css/style.css" rel="stylesheet"/>
+      <link href="css/overlay.css" rel="stylesheet"/>
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <div class="controls">
+         <div>
+            <input type="text" id="inputFilter" class="filterinput" placeholder="Search shops here">
+         </div>
+
+         <ul>
+            <li>Portland Rd.</li>
+            <li>High Street</li>
+            <li>Station Road</li>
+            <li>Selhurst Road</li>
+         </ul>
+
+<!--          <ul>
+            <li>Bakery</li>
+            <li>Beauty</li>
+            <li>Betting</li>
+            <li>Butchers</li>
+            <li>Cafe</li>
+            <li>Dry Cleaners</li>
+            <li>Electronics</li>
+            <li>Estate Agent</li>
+            <li>Fast food</li>
+            <li>Pharmacy</li>
+            <li>Pubs/ Clubs</li>
+            <li>Newsagents</li>
+            <li>Empty</li>
+         </ul> -->
+
+      </div>
+      
+
+      
+
+      <div class="overlay" id="overlay">
+      </div>
+
+
+      
+
+      <ul id="list" class="list">
+         <li>
+            <img class="shop" src="img/portland/shop-17.jpg" />
+            <dl>
+               <dt class="number">Number</dt>
+               <dd class="number">17</dd>
+               <dt class="street">Street</dt>
+               <dd class="street">Portland Rd.</dd>
+               <dt class="postcode">Postcode</dt>
+               <dd class="postcode">SE25 4UF</dd>
+
+
+               <dt class="name">Shop name</dt>
+               <dd class="name">Seafood Den</dd>
+
+
+               <dt class="instagram">Instagram</dt>
+               <dd class="instagram"><a href="https://www.instagram.com/seafood_den_">@seafood_den_</a></dd>
+
+               <dt class="star"></dt>
+               <dd class="star">4.3</dd>
+
+
+               
+15 Google reviews 
+
+
+            </dl>
+
+         </li>
+         <li>
+            <img class="shop" src="img/portland/shop-18.jpg" />
+            <dl>
+               <dt class="number">Number</dt>
+               <dd class="number">18</dd>
+               <dt class="street">Street</dt>
+               <dd class="street">Portland Rd.</dd>
+               <dt class="name">Shop name</dt>
+               <dd class="name">—</dd>
+            </dl>
+
+         </li>
+         <li>
+            <img class="shop" src="img/portland/shop-19.jpg" />
+            <dl>
+               <dt class="number">Number</dt>
+               <dd class="number">19</dd>
+               <dt class="street">Street</dt>
+               <dd class="street">Portland Rd.</dd>
+               <dt class="name">Shop name</dt>
+               <dd class="name">Ashies44</dd>
+            </dl>
+
+
+
+         </li>
+         <li>
+            <img class="shop" src="img/portland/shop-31.jpg" />
+            <dl>
+               <dt class="number">Number</dt>
+               <dd class="number">31</dd>
+               <dt class="street">Street</dt>
+               <dd class="street">Portland Rd.</dd>
+               <dt class="name">Shop name</dt>
+               <dd class="name">–</dd>
+            </dl>
+
+
+
+         </li>
+         <li>
+            <img class="shop" src="img/portland/shop-33.jpg" />
+            <dl>
+               <dt class="number">Number</dt>
+               <dd class="number">33</dd>
+               <dt class="street">Street</dt>
+               <dd class="street">Portland Rd.</dd>
+               <dt class="name">Shop name</dt>
+               <dd class="name">Williams</dd>
+            </dl>
+
+
+
+
+         </li>
+         <li>
+            <img class="shop" src="img/portland/shop-37.jpg" />
+
+            <dl>
+               <dt class="number">Number</dt>
+               <dd class="number">37</dd>
+               <dt class="street">Street</dt>
+               <dd class="street">Portland Rd.</dd>
+               <dt class="name">Shop name</dt>
+               <dd class="name">Signs</dd>
+            </dl>
+
+
+         </li>
+
+         <li>
+            <img class="shop" src="img/portland/shop-39.jpg" />
+            <dl>
+               <dt class="number">Number</dt>
+               <dd class="number">39</dd>
+               <dt class="street">Street</dt>
+               <dd class="street">Portland Rd.</dd>
+               <dt class="name">Shop name</dt>
+               <dd class="name">1st Class Fades</dd>
+            </dl>
+
+
+
+
+         </li>
+         <li>
+            <img class="shop" src="img/portland/shop-52.jpg" />
+            <dl>
+               <dt class="number">Number</dt>
+               <dd class="number">52</dd>
+               <dt class="street">Street</dt>
+               <dd class="street">Portland Rd.</dd>
+               <dt class="name">Shop name</dt>
+               <dd class="name">Ardour</dd>
+            </dl>
+         </li>
+
+
+         <li>
+            <img class="shop" src="img/selhurst/shop-206a.jpg" />
+            <dl>
+               <dt class="number">Number</dt>
+               <dd class="number">206A</dd>
+               <dt class="street">Street</dt>
+               <dd class="street">Selhurst Rd.</dd>
+               <dt class="name">Shop name</dt>
+               <dd class="name">Planet Kebab</dd>
+            </dl>
+         </li>
+
+         <li>
+            <img class="shop" src="img/selhurst/shop-208.jpg" />
+            <dl>
+               <dt class="number">Number</dt>
+               <dd class="number">208</dd>
+               <dt class="street">Street</dt>
+               <dd class="street">Selhurst Rd.</dd>
+               <dt class="name">Shop name</dt>
+               <dd class="name">Cafe Terra</dd>
+            </dl>
+
+
+         </li>
+
+
+         <li>
+            <img class="shop" src="img/selhurst/shop-212.jpg" />
+            <small>212 L.A. Carr</small>
+         </li>
+         <li>
+            <img class="shop" src="img/selhurst/shop-214a.jpg" />
+            <small>214A Ranya Barbers</small>
+         </li>
+         <li>
+            <img class="shop" src="img/selhurst/shop-239.jpg" />
+            <small>239 Yoga Mela</small>
+         </li>
+         <li>
+            <img class="shop" src="img/selhurst/shop-218.jpg" />
+            <small>218 Courier News</small>
+         </li>
+         <li>
+            <img class="shop" src="img/selhurst/shop-241.jpg" />
+            <small>241 Cafe 241</small>
+         </li>
+         <li>
+            <img class="shop" src="img/station/shop-00.jpg" />
+            <small>Blooming Desires</small>
+         </li>
+         <li>
+            <img class="shop" src="img/station/shop-02.jpg" />
+            <small>Clocktower Fruit and Veg</small>
+         </li>
+         <li>
+            <img class="shop" src="img/station/shop-13.jpg" />
+            <small>Times Travel</small>
+         </li>
+         <li>
+            <img class="shop" src="img/station/shop-17.jpg" />
+            <small>—</small>
+         </li>
+         <li>
+            <img class="shop" src="img/station/shop-19.jpg" />
+            <small>—</small>
+         </li>
+         <li>
+            <img class="shop" src="img/station/shop-27.jpg" />
+            <small>—</small>
+         </li>
+         <li>
+            <img class="shop" src="img/station/shop-28.jpg" />
+            <small>—</small>
+         </li>
+         <li>
+            <img class="shop" src="img/station/shop-35.jpg" />
+            <small>—</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-01.jpg" />
+            <small>№1 Blockbusters</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-02a.jpg" />
+            <small>№2a Dry Cleaners</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-02b.jpg" />
+            <small>№2b Pizza Plus Pizza</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-03.jpg" />
+            <small>№3 Day Lewis Pharmacy</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-04.jpg" />
+            <small>№4 Marginana</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-05.jpg" />
+            <small>№5 Northwoods</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-06.jpg" />
+            <small>№6 Blitz Nails & Beauty</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-06a.jpg" />
+            <small>№6A G1 Wines</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-07.jpg" />
+            <small>№7-8 Shelverdive Goathouse</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-09.jpg" />
+            <small>№9 Morley's</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-10.jpg" />
+            <small>№10 Cakes & Bakes</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-11.jpg" />
+            <small>№11 Stirling Ackroyd</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-12.jpg" />
+            <small>№12 Shah Mobiles &amp; Electronics</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-13.jpg" />
+            <small>№13 Hasan's Butchers</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-14.jpg" />
+            <small>№14-15 Pinch 'a' Pound</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-16.jpg" />
+            <small>№16 Lensa Chata</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-17.jpg" />
+            <small>№17 Ladbrokes</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-17a.jpg" />
+            <small>№17a Norwood Mobiles</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-18.jpg" />
+            <small>№18 Norwood News</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-21.jpg" />
+            <small>№21 Betfred</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-23a.jpg" />
+            <small>№23a Earth's Creation</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-23b.jpg" />
+            <small>№23b Barbers</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-25.jpg" />
+            <small>№25 Streets Ahead</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-26a.jpg" />
+            <small>№26a Got Dank</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-26b.jpg" />
+            <small>№26b Jerry's Waffles</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-27b.jpg" />
+            <small>№27b The Grill</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-28.jpg" />
+            <small>№28 Star News</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-29.jpg" />
+            <small>№29 Hair on Fleek</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-30.jpg" />
+            <small>№30 Omya Therapy</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-31.jpg" />
+            <small>№31 Food Stop</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-32.jpg" />
+            <small>№32 Troyale's</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-33.jpg" />
+            <small>№33 Osborn Glass</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-53.jpg" />
+            <small>№53 MK Beauty</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-54.jpg" />
+            <small>№54 Ying's Nail Salon</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-54a.jpg" />
+            <small>№54a Smiths</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-57.jpg" />
+            <small>№57 Wright &amp; Co.</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-62-01.jpg" />
+            <small>№62-01 Sunrise Recruitment</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-62-02.jpg" />
+            <small>№62-02 Betta Kutz</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-62-03.jpg" />
+            <small>№62-03 Flavaz First</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-62-04.jpg" />
+            <small>№62 IRO Sushi</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-64.jpg" />
+            <small>№64 Jolly Sailor</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-65.jpg" />
+            <small>№65 Laundrette</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-66.jpg" />
+            <small>№66 PHD Hair</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-67a.jpg" />
+            <small>№67a Chicken World</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-71.jpg" />
+            <small>№71 Sonny</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-72.jpg" />
+            <small>№72 Golden Fish and Chips</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-73.jpg" />
+            <small>№73 Lensa</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-75.jpg" />
+            <small>№75 Freidas</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-76.jpg" />
+            <small>№76 Jukes</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-77.jpg" />
+            <small>№77 Checkpoint Convenience</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-78.jpg" />
+            <small>№78 VIP Barbers</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-79.jpg" />
+            <small>№79 KT Fishmonger</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-80.jpg" />
+            <small>№80 Communitea</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-81.jpg" />
+            <small>№81 AndMarket</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-82.jpg" />
+            <small>№82 Just Computers</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-83.jpg" />
+            <small>№83 Jungle Bar</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-85.jpg" />
+            <small>№85 Nisa Local</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-87.jpg" />
+            <small>№87 Subway</small>
+         </li>
+         <li>
+            <img class="shop" src="img/highst/shop-88.jpg" />
+            <small>№88 Mayflower</small>
+         </li>
+      </ul>
+
+   </body>
+
+      <script src='js/jquery.min.js'></script>
+      <script src="js/react.js"></script>
+      <script src="js/lightbox.js"></script>
+
+
+</html>

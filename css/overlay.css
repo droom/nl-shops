@@ -1,0 +1,18 @@
+.overlay img.shop{
+     max-width: 100%;
+
+}
+
+
+.overlay{
+/*     transition: all 1s ease;*/
+}
+
+/*.overlay:hover{
+     position: fixed;
+     top: 20px;
+     left: 20px;
+     width: 700px;
+     margin: auto;
+}
+*/
